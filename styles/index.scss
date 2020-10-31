@@ -1,0 +1,24 @@
+@import "./variables";
+
+@import "./bootstrap/bootstrap.scss";
+
+@font-face {
+  font-family: "Dubai";
+  src: url("../fonts/Dubai-Bold.ttf");
+  src: url("../fonts/Dubai-Medium.ttf");
+  src: url("../fonts/Dubai-Regular.ttf");
+  src: url("../fonts/Dubai-Light.ttf");
+}
+
+@font-face {
+  font-family: "TFArrow";
+  src: url("../fonts/TFArrow\ Bold.ttf");
+}
+
+body {
+  // background-color: green;
+  font-family: Dubai;
+  font-weight: 300;
+  padding: 0;
+  margin: 0;
+}
